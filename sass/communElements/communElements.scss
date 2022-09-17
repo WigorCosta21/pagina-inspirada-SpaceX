@@ -1,0 +1,81 @@
+.header{
+    font-size: 12px;
+    font-weight: bold;
+    
+
+    #navItem{
+
+
+        &:hover{
+            color: $link-hover;
+        }
+    }
+
+}
+
+.container00{
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arrowDown{
+    display: inline-block;
+    width: 90px;
+    margin-top: 5px;
+}
+
+.logoPC{
+    width: 240px;
+    margin-left: -10px;
+    margin-right: 40px;
+}
+
+#buttom{
+    padding: $padding-buttom;
+    border: 2px solid white;
+}
+
+.downloadDesc {
+    background-color: black;
+    height: 85vh;
+    padding-top: 200px;
+  }
+
+  .emailOBC {
+        text-decoration: none;
+        color: $copy-color;
+    
+        &:hover {
+          color: $link-hover;
+        }
+      }
+  
+//Media query
+
+@media(max-width: 449px){
+    .downloadDesc{
+        button{
+            margin: 10px 0;
+        }
+    }
+}
+
+@media (max-width: 405px){
+    .logoPC{
+        width: 180px;
+        margin-top: 15px;
+    }
+
+    .footer{
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 350px){
+    .logoPC{
+        width: 150px;
+        margin-top: 15px;
+    }
+}
